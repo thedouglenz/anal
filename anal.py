@@ -30,7 +30,7 @@ def main():
         print(common.FULL_HELP)
         sys.exit()
 
-    print('Analyzing {}...\n'.format(path))
+    print('Analyzing {}...'.format(path))
 
     if is_url:
         r = requests.get(path)
